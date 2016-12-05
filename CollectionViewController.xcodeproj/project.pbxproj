@@ -12,6 +12,8 @@
 		02E2D1701DDDE6A70040662F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E2D16E1DDDE6A70040662F /* Main.storyboard */; };
 		02E2D1721DDDE6A70040662F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E2D1711DDDE6A70040662F /* Assets.xcassets */; };
 		02E2D1751DDDE6A70040662F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E2D1731DDDE6A70040662F /* LaunchScreen.storyboard */; };
+		02E2D17D1DDDECEE0040662F /* IMGCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E2D17C1DDDECEE0040662F /* IMGCollectionViewCell.swift */; };
+		02E2D17F1DDDED240040662F /* ShowImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E2D17E1DDDED240040662F /* ShowImageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		02E2D1711DDDE6A70040662F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02E2D1741DDDE6A70040662F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02E2D1761DDDE6A70040662F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E2D17C1DDDECEE0040662F /* IMGCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IMGCollectionViewCell.swift; path = ../IMGCollectionViewCell.swift; sourceTree = "<group>"; };
+		02E2D17E1DDDED240040662F /* ShowImageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowImageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		02E2D1691DDDE6A70040662F /* CollectionViewController */ = {
 			isa = PBXGroup;
 			children = (
+				02E2D17C1DDDECEE0040662F /* IMGCollectionViewCell.swift */,
+				02E2D17E1DDDED240040662F /* ShowImageVC.swift */,
 				02E2D16A1DDDE6A70040662F /* AppDelegate.swift */,
 				02E2D16C1DDDE6A70040662F /* ViewController.swift */,
 				02E2D16E1DDDE6A70040662F /* Main.storyboard */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E2D17D1DDDECEE0040662F /* IMGCollectionViewCell.swift in Sources */,
+				02E2D17F1DDDED240040662F /* ShowImageVC.swift in Sources */,
 				02E2D16D1DDDE6A70040662F /* ViewController.swift in Sources */,
 				02E2D16B1DDDE6A70040662F /* AppDelegate.swift in Sources */,
 			);
